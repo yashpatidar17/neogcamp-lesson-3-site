@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
 :root {
     --primary-color: #1B98F5;
@@ -7,7 +7,8 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 hr{
@@ -15,6 +16,14 @@ hr{
 }
 
 /**container**/
+
+.margin-md{
+    padding-bottom: 10rem;
+}
+
+.container{
+    padding: 0rem 1rem;
+}
 
 .container-fluid {
     padding-left: 1rem;
@@ -27,6 +36,17 @@ hr{
 } 
 
 /** links **/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link-active{
+    font-weight: bold;
+}
 
 .primary-link {
     background-color: var(--primary-color);
@@ -57,13 +77,17 @@ hr{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .navigation .nav{
     font-weight: bold;
     color:black;
     font-size: medium;
+}
+
+.navigation .nav-pills{
+    text-align: right;
 }
 
 .navigation .link{
@@ -81,7 +105,7 @@ hr{
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 450px;
     display: block;
     margin: auto;
 }
@@ -89,6 +113,7 @@ hr{
 .hero .hero-heading{
     padding-top: 1rem;
     color:var(--heading-color);
+    text-align: center;
 }
 
 .hero .hero-heading .highlighted-text{
@@ -113,13 +138,17 @@ hr{
 /**footer**/
 
 .footer {
-    background-color: var(--off-white);
+    background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
     color:black;
-    border-bottom-right-radius: ;
+    border-bottom-right-radius: 1rem;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
 .footer .link{
     color:black;
 }
@@ -127,3 +156,4 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 }
+
