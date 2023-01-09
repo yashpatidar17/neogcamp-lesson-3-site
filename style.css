@@ -35,6 +35,10 @@ hr{
     margin: auto;
 } 
 
+.project-list{
+    margin-bottom:3rem;
+}
+
 /** links **/
 
 .link{
@@ -102,6 +106,7 @@ hr{
 
 .hero {
     padding: 2rem;
+
 }
 
 .hero .hero-img {
@@ -157,3 +162,17 @@ hr{
     padding-inline-start: 0px;
 }
 
+/**Blogs**/
+.article {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.blog-heading{
+    text-align: center;
+}
+
+.project{
+    margin-bottom:5rem;
+}
